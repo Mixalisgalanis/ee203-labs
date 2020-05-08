@@ -1,0 +1,93 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TB_TOP_MODULE_isim_beh.exe" -prj "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TB_TOP_MODULE_beh.prj" "work.TB_TOP_MODULE" 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ipcore_dir/Stack.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Sum_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Generate_Propagate_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/FlipFlop.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Adder.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux_32to8.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux5To4.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/RegisterController.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Register.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Swapper.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Pre_Stack.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Double_FlipFlop.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADDER_SUBBER.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SWAP_FSM.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Stack_DataPath.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/StackFSM.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Fsm.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder2To4.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_DataPath.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Comparator.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssdCounter.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/singlepulsegen.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/OperationFSM.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_True_Btn_Pulse.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_FinalTosSelector.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Counter.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Comparator_4Bit.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADD_SUB_UN_FSM.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SSD_CONTROLLER.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/CONTROLLER.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TOP_MODULE.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TB_TOP_MODULE.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity singlepulsegen [singlepulsegen_default]
+Compiling architecture behavioral of entity FlipFlop [flipflop_default]
+Compiling architecture behavioral of entity Counter [counter_default]
+Compiling architecture behavioral of entity Comparator_4Bit [comparator_4bit_default]
+Compiling architecture structural of entity Double_FlipFlop [double_flipflop_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_3_output_stage [\BLK_MEM_GEN_V6_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_3_softecc_output_reg_stage [\BLK_MEM_GEN_V6_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_3_mem_module [\BLK_MEM_GEN_V6_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_3 [\BLK_MEM_GEN_V6_3("blk_mem_gen_v...]
+Compiling architecture stack_a of entity Stack [stack_default]
+Compiling architecture behavioral of entity Mux_True_Btn_Pulse [mux_true_btn_pulse_default]
+Compiling architecture behavioral of entity StackFSM [stackfsm_default]
+Compiling architecture behavioral of entity OperationFSM [operationfsm_default]
+Compiling architecture behavioral of entity ADD_SUB_UN_FSM [add_sub_un_fsm_default]
+Compiling architecture behavioral of entity SWAP_FSM [swap_fsm_default]
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity Mux_Pre_Stack [mux_pre_stack_default]
+Compiling architecture behavioral of entity RegisterController [registercontroller_default]
+Compiling architecture behavioral of entity Mux_Swapper [mux_swapper_default]
+Compiling architecture behavioral of entity Stack_Register [stack_register_default]
+Compiling architecture behavioral of entity Carry_Generate_Propagate_Unit [carry_generate_propagate_unit_de...]
+Compiling architecture behavioral of entity Carry_Look_Ahead_Unit [carry_look_ahead_unit_default]
+Compiling architecture behavioral of entity Sum_Unit [sum_unit_default]
+Compiling architecture structural of entity Carry_Look_Ahead_Adder [carry_look_ahead_adder_default]
+Compiling architecture structural of entity ADDER_SUBBER [adder_subber_default]
+Compiling architecture structural of entity Stack_DataPath [stack_datapath_default]
+Compiling architecture behavioral of entity Mux_FinalTosSelector [mux_finaltosselector_default]
+Compiling architecture structural of entity STACK_CONTROLLER [stack_controller_default]
+Compiling architecture behavioral of entity ssd_Comparator [ssd_comparator_default]
+Compiling architecture behavioral of entity ssd_Counter [ssd_counter_default]
+Compiling architecture behavioral of entity ssd_Fsm [ssd_fsm_default]
+Compiling architecture behavioral of entity ssd_Decoder [ssd_decoder_default]
+Compiling architecture behavioral of entity ssd_Mux32To8 [ssd_mux32to8_default]
+Compiling architecture behavioral of entity ssd_Mux5To4 [ssd_mux5to4_default]
+Compiling architecture structural of entity ssd_DataPath [ssd_datapath_default]
+Compiling architecture behavioral of entity ssd_Decoder2To4 [ssd_decoder2to4_default]
+Compiling architecture structural of entity SSD_CONTROLLER [ssd_controller_default]
+Compiling architecture structural of entity TOP_MODULE [top_module_default]
+Compiling architecture behavior of entity tb_top_module
+Time Resolution for simulation is 1ps.
+Waiting for 28 sub-compilation(s) to finish...
+Compiled 83 VHDL Units
+Built simulation executable C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TB_TOP_MODULE_isim_beh.exe
+Fuse Memory Usage: 42308 KB
+Fuse CPU Usage: 671 ms

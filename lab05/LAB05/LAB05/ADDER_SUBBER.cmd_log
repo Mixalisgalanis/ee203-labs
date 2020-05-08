@@ -1,0 +1,1 @@
+vhdtdtfi -prj LAB03 -o "C:/Users/mgala/Documents/Xilinx Projects/LAB05/ADDER_SUBBER.vhi" -module ADDER_SUBBER -template D:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ADDER_SUBBER.vhd 

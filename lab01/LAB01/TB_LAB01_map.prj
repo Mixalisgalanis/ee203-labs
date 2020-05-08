@@ -1,0 +1,2 @@
+vhdl work "netgen/map/LAB01_map.vhd"
+vhdl work "TB_LAB01.vhd"

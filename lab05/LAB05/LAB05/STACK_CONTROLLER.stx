@@ -1,0 +1,79 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Generate_Propagate_Unit.vhd" in Library work.
+Architecture behavioral of Entity carry_generate_propagate_unit is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Unit.vhd" in Library work.
+Architecture behavioral of Entity carry_look_ahead_unit is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Sum_Unit.vhd" in Library work.
+Architecture behavioral of Entity sum_unit is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/FlipFlop.vhd" in Library work.
+Architecture behavioral of Entity flipflop is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Adder.vhd" in Library work.
+Architecture structural of Entity carry_look_ahead_adder is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Pre_Stack.vhd" in Library work.
+Architecture behavioral of Entity mux_pre_stack is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/RegisterController.vhd" in Library work.
+Architecture behavioral of Entity registercontroller is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Swapper.vhd" in Library work.
+Architecture behavioral of Entity mux_swapper is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Register.vhd" in Library work.
+Architecture behavioral of Entity stack_register is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADDER_SUBBER.vhd" in Library work.
+Architecture structural of Entity adder_subber is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Double_FlipFlop.vhd" in Library work.
+Architecture structural of Entity double_flipflop is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/singlepulsegen.vhd" in Library work.
+Architecture behavioral of Entity singlepulsegen is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Comparator_4Bit.vhd" in Library work.
+Architecture behavioral of Entity comparator_4bit is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ipcore_dir/Stack.vhd" in Library work.
+Architecture stack_a of Entity stack is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_True_Btn_Pulse.vhd" in Library work.
+Architecture behavioral of Entity mux_true_btn_pulse is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/StackFSM.vhd" in Library work.
+Architecture behavioral of Entity stackfsm is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/OperationFSM.vhd" in Library work.
+Architecture behavioral of Entity operationfsm is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADD_SUB_UN_FSM.vhd" in Library work.
+Architecture behavioral of Entity add_sub_un_fsm is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SWAP_FSM.vhd" in Library work.
+Architecture behavioral of Entity swap_fsm is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Stack_DataPath.vhd" in Library work.
+Entity <stack_datapath> compiled.
+Entity <stack_datapath> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_FinalTosSelector.vhd" in Library work.
+Architecture behavioral of Entity mux_finaltosselector is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/CONTROLLER.vhd" in Library work.
+Architecture structural of Entity stack_controller is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> 
+
+Total memory usage is 4509784 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

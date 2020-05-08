@@ -1,0 +1,4 @@
+vhdl work "C:\Users\mgala\Documents\Xilinx Projects\LAB02_PART_A\Sum_Unit.vhd"
+vhdl work "C:\Users\mgala\Documents\Xilinx Projects\LAB02_PART_A\Carry_Look_Ahead_Unit.vhd"
+vhdl work "C:\Users\mgala\Documents\Xilinx Projects\LAB02_PART_A\Carry_Generate_Propagate_Unit.vhd"
+vhdl work "C:\Users\mgala\Documents\Xilinx Projects\LAB02_PART_A\Carry_Look_Ahead_Adder.vhd"

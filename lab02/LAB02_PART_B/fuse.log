@@ -1,0 +1,25 @@
+Running: D:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/LAB02_TB_isim_beh.exe -prj C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/LAB02_TB_beh.prj work.LAB02_TB 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/singlepulsegen.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/FSM.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/TOP_FSM.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/LAB02_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity singlepulsegen [singlepulsegen_default]
+Compiling architecture behavioral of entity FSM [fsm_default]
+Compiling architecture structural of entity TOP_FSM [top_fsm_default]
+Compiling architecture behavior of entity lab02_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/LAB02_TB_isim_beh.exe
+Fuse Memory Usage: 33880 KB
+Fuse CPU Usage: 327 ms

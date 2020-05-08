@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml TOP_MODULE.twx TOP_MODULE.ncd -o TOP_MODULE.twr
+TOP_MODULE.pcf
+
+Design file:              TOP_MODULE.ncd
+Physical constraint file: TOP_MODULE.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+NUM_IN<0>   |    0.283(R)|    1.025(R)|CLK_BUFGP         |   0.000|
+NUM_IN<1>   |    0.507(R)|    0.845(R)|CLK_BUFGP         |   0.000|
+NUM_IN<2>   |    0.347(R)|    0.974(R)|CLK_BUFGP         |   0.000|
+NUM_IN<3>   |    0.213(R)|    1.081(R)|CLK_BUFGP         |   0.000|
+NUM_IN<4>   |    0.627(R)|    0.750(R)|CLK_BUFGP         |   0.000|
+NUM_IN<5>   |    0.653(R)|    0.729(R)|CLK_BUFGP         |   0.000|
+NUM_IN<6>   |    0.748(R)|    0.653(R)|CLK_BUFGP         |   0.000|
+NUM_IN<7>   |    0.194(R)|    1.096(R)|CLK_BUFGP         |   0.000|
+POP         |    0.353(R)|    0.820(R)|CLK_BUFGP         |   0.000|
+PUSH        |    0.669(R)|    0.577(R)|CLK_BUFGP         |   0.000|
+RST         |    2.059(R)|    0.418(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+NUM_OUT<0>  |    9.370(R)|CLK_BUFGP         |   0.000|
+NUM_OUT<1>  |    9.202(R)|CLK_BUFGP         |   0.000|
+NUM_OUT<2>  |    9.723(R)|CLK_BUFGP         |   0.000|
+NUM_OUT<3>  |    9.405(R)|CLK_BUFGP         |   0.000|
+NUM_OUT<4>  |    8.980(R)|CLK_BUFGP         |   0.000|
+NUM_OUT<5>  |    8.872(R)|CLK_BUFGP         |   0.000|
+NUM_OUT<6>  |    9.639(R)|CLK_BUFGP         |   0.000|
+NUM_OUT<7>  |    9.503(R)|CLK_BUFGP         |   0.000|
+SSD_EN<0>   |    8.994(R)|CLK_BUFGP         |   0.000|
+SSD_EN<1>   |    8.957(R)|CLK_BUFGP         |   0.000|
+SSD_EN<2>   |    8.539(R)|CLK_BUFGP         |   0.000|
+SSD_EN<3>   |    9.154(R)|CLK_BUFGP         |   0.000|
+SSD_VALUE<0>|   10.059(R)|CLK_BUFGP         |   0.000|
+SSD_VALUE<1>|    9.695(R)|CLK_BUFGP         |   0.000|
+SSD_VALUE<2>|   10.643(R)|CLK_BUFGP         |   0.000|
+SSD_VALUE<3>|   10.054(R)|CLK_BUFGP         |   0.000|
+SSD_VALUE<4>|    9.835(R)|CLK_BUFGP         |   0.000|
+SSD_VALUE<5>|    9.822(R)|CLK_BUFGP         |   0.000|
+SSD_VALUE<6>|    9.834(R)|CLK_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.272|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Apr 22 18:54:49 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 207 MB
+
+
+

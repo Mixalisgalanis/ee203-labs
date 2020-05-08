@@ -1,0 +1,5 @@
+vhdl isim_temp "Sum_Unit.vhd"
+vhdl isim_temp "Carry_Look_Ahead_Unit.vhd"
+vhdl isim_temp "Carry_Generate_Propagate_Unit.vhd"
+vhdl isim_temp "Carry_Look_Ahead_Adder.vhd"
+vhdl isim_temp "LAB02_TB_LEDS.vhd"

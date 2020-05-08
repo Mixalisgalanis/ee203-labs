@@ -1,0 +1,112 @@
+V3 59
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Comparator_4Bit.vhd" 2018/04/22.17:45:12 O.87xd
+EN work/Comparator_4Bit 1524411491 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Comparator_4Bit.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/Comparator_4Bit/Behavioral 1524411492 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Comparator_4Bit.vhd" \
+      EN work/Comparator_4Bit 1524411491
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/CONTROLLER.vhd" 2018/04/22.17:45:31 O.87xd
+EN work/STACK_CONTROLLER 1524411497 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/CONTROLLER.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/STACK_CONTROLLER/Structural 1524411498 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/CONTROLLER.vhd" \
+      EN work/STACK_CONTROLLER 1524411497 CP singlepulsegen CP Counter \
+      CP Comparator_4Bit CP Stack CP StackFSM
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Counter.vhd" 2018/04/22.17:38:51 O.87xd
+EN work/Counter 1524411489 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Counter.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/Counter/Behavioral 1524411490 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Counter.vhd" \
+      EN work/Counter 1524411489
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ipcore_dir/Stack.vhd" 2018/04/18.17:35:57 O.87xd
+EN work/Stack 1524411493 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ipcore_dir/Stack.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Stack/Stack_a 1524411494 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ipcore_dir/Stack.vhd" \
+      EN work/Stack 1524411493
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/singlepulsegen.vhd" 2017/03/06.19:28:46 O.87xd
+EN work/singlepulsegen 1524411487 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/singlepulsegen.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/singlepulsegen/behavioral 1524411488 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/singlepulsegen.vhd" \
+      EN work/singlepulsegen 1524411487
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssdCounter.vhd" 2018/04/22.18:23:36 O.87xd
+EN work/ssd_Counter 1524411479 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssdCounter.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/ssd_Counter/Behavioral 1524411480 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssdCounter.vhd" \
+      EN work/ssd_Counter 1524411479
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Comparator.vhd" 2018/04/21.19:49:27 O.87xd
+EN work/ssd_Comparator 1524411477 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Comparator.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/ssd_Comparator/Behavioral 1524411478 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Comparator.vhd" \
+      EN work/ssd_Comparator 1524411477
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/SSD_CONTROLLER.vhd" 2018/04/22.18:23:28 O.87xd
+EN work/SSD_CONTROLLER 1524411499 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/SSD_CONTROLLER.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/SSD_CONTROLLER/Structural 1524411500 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/SSD_CONTROLLER.vhd" \
+      EN work/SSD_CONTROLLER 1524411499 CP ssd_Comparator CP ssd_Counter CP ssd_Fsm \
+      CP ssd_DataPath CP ssd_Decoder2To4
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_DataPath.vhd" 2018/04/19.15:20:08 O.87xd
+EN work/ssd_DataPath 1524411483 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_DataPath.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_DataPath/Structural 1524411484 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_DataPath.vhd" \
+      EN work/ssd_DataPath 1524411483 CP ssd_Decoder CP ssd_Mux32To8
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder.vhd" 2018/04/19.15:05:46 O.87xd
+EN work/ssd_Decoder 1524411473 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Decoder/Behavioral 1524411474 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder.vhd" \
+      EN work/ssd_Decoder 1524411473
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder2To4.vhd" 2018/04/19.23:48:48 O.87xd
+EN work/ssd_Decoder2To4 1524411485 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder2To4.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Decoder2To4/Behavioral 1524411486 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder2To4.vhd" \
+      EN work/ssd_Decoder2To4 1524411485
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Fsm.vhd" 2018/04/22.18:00:45 O.87xd
+EN work/ssd_Fsm 1524411481 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Fsm.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Fsm/Behavioral 1524411482 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Fsm.vhd" \
+      EN work/ssd_Fsm 1524411481
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Mux_32to8.vhd" 2018/04/19.20:43:14 O.87xd
+EN work/ssd_Mux32To8 1524411475 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Mux_32to8.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Mux32To8/Behavioral 1524411476 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Mux_32to8.vhd" \
+      EN work/ssd_Mux32To8 1524411475
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/StackFSM.vhd" 2018/04/22.17:41:23 O.87xd
+EN work/StackFSM 1524411495 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/StackFSM.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/StackFSM/Behavioral 1524411496 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/StackFSM.vhd" \
+      EN work/StackFSM 1524411495
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.vhd" 2018/04/22.04:34:46 O.87xd
+EN work/TOP_MODULE 1524411501 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/TOP_MODULE/Structural 1524411502 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.vhd" \
+      EN work/TOP_MODULE 1524411501 CP STACK_CONTROLLER CP SSD_CONTROLLER

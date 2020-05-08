@@ -1,0 +1,19 @@
+# Inputs
+NET "RST" LOC = "A7";  # Bank = 0, Signal name = BTN3
+NET "IN2" LOC = "M4";  # Bank = 0, Signal name = BTN2
+NET "IN1" LOC = "C11"; # Bank = 2, Signal name = BTN1
+NET "IN0" LOC = "G12"; # Bank = 0, Signal name = BTN0
+
+# Outputs
+NET "LED(7)" LOC = "G1" ; # Bank = 2, Signal name = LED7
+NET "LED(6)" LOC = "P4" ;  # Bank = 2, Signal name = LED6
+NET "LED(5)" LOC = "N4" ;  # Bank = 2, Signal name = LED5
+NET "LED(4)" LOC = "N5" ;  # Bank = 2, Signal name = LED4
+NET "LED(3)" LOC = "P6" ; # Bank = 2, Signal name = LED3
+NET "LED(2)" LOC = "P7" ; # Bank = 3, Signal name = LED2
+NET "LED(1)" LOC = "M11" ; # Bank = 2, Signal name = LED1
+NET "LED(0)" LOC = "M5" ;  # Bank = 2, Signal name = LED0
+
+# Clock
+
+NET "CLK" LOC = "B8"; # Bank = 0, Signal name = MCLK

@@ -1,0 +1,7 @@
+V3 3
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.vhd" 2018/03/11.18:28:28 O.87xd
+EN work/LAB01 1520807011 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/LAB01/Behavioral 1520807012 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.vhd" EN work/LAB01 1520807011

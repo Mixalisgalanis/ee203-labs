@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/MHL-14/Desktop/LAB05/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/MHL-14/Desktop/LAB05/xst"
+elaborate
+-ifn ADD_SUB_UN_FSM.prj
+-ifmt mixed

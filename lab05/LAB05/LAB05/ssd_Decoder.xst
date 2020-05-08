@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/MHL-14/Desktop/LAB05/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/MHL-14/Desktop/LAB05/xst"
+elaborate
+-ifn ssd_Decoder.prj
+-ifmt mixed

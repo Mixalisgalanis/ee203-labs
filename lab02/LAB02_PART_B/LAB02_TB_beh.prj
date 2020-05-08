@@ -1,0 +1,4 @@
+vhdl work "singlepulsegen.vhd"
+vhdl work "FSM.vhd"
+vhdl work "TOP_FSM.vhd"
+vhdl work "LAB02_TB.vhd"

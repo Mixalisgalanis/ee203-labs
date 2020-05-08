@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mgala\Documents\Xilinx Projects\LAB01\LAB01.ncd
+OUTFILE=C:\Users\mgala\Documents\Xilinx Projects\LAB01\LAB01.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\mgala\Documents\Xilinx Projects\LAB01
+LICENSE=WebPack
+USER_INFO=211497059_0_0_476

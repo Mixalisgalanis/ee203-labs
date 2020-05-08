@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/mgala/Documents/Xilinx Projects/LAB05/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/mgala/Documents/Xilinx Projects/LAB05/xst"
+elaborate
+-ifn ADD_SUB_FSM.prj
+-ifmt mixed

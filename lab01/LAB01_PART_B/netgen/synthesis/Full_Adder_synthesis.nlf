@@ -1,0 +1,19 @@
+Release 13.4 - netgen O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -ar Structure -tm Full_Adder -w -dir
+netgen/synthesis -ofmt vhdl -sim Full_Adder.ngc Full_Adder_synthesis.vhd  
+
+Reading design 'Full_Adder.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist 'C:\Users\mgala\Documents\Xilinx
+Projects\LAB01_PART_B\netgen\synthesis\Full_Adder_synthesis.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 191720 kilobytes

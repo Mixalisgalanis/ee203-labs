@@ -1,0 +1,50 @@
+# Inputs
+
+# Buttons - Controllers
+NET "RST" LOC = "A7";  # Bank = 0, Signal name = BTN3
+NET "MODE" LOC = "M4";  # Bank = 0, Signal name = BTN2
+NET "BTN1" LOC = "C11"; # Bank = 2, Signal name = BTN1
+NET "BTN0" LOC = "G12"; # Bank = 0, Signal name = BTN0
+
+# Switches - Number Input
+NET "NUM_IN<7>" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "NUM_IN<6>" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "NUM_IN<5>" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "NUM_IN<4>" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "NUM_IN<3>" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "NUM_IN<2>" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "NUM_IN<1>" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "NUM_IN<0>" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+
+# Outputs
+
+# LEDs - Number Output
+NET "NUM_OUT<7>" LOC = "G1" ; # Bank = 2, Signal name = LED7
+NET "NUM_OUT<6>" LOC = "P4" ;  # Bank = 2, Signal name = LED6
+NET "NUM_OUT<5>" LOC = "N4" ;  # Bank = 2, Signal name = LED5
+NET "NUM_OUT<4>" LOC = "N5" ;  # Bank = 2, Signal name = LED4
+NET "NUM_OUT<3>" LOC = "P6" ; # Bank = 2, Signal name = LED3
+NET "NUM_OUT<2>" LOC = "P7" ; # Bank = 3, Signal name = LED2
+NET "NUM_OUT<1>" LOC = "M11" ; # Bank = 2, Signal name = LED1
+NET "NUM_OUT<0>" LOC = "M5" ;  # Bank = 2, Signal name = LED0
+
+# SSD Control Bit
+NET "SSD_EN<3>" LOC = "F12"; # Bank = 1, Signal name = AN3
+NET "SSD_EN<2>" LOC = "J12"; # Bank = 1, Signal name = AN2
+NET "SSD_EN<1>" LOC = "M13"; # Bank = 1, Signal name = AN1
+NET "SSD_EN<0>" LOC = "K14"; # Bank = 1, Signal name = AN0
+
+# SSD Segments
+NET "SSD_VALUE<7>" LOC = "N13"; # Bank = 1, Signal name = DP
+NET "SSD_VALUE<6>" LOC = "M12"; # Bank = 1, Signal name = CG
+NET "SSD_VALUE<5>" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "SSD_VALUE<4>" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "SSD_VALUE<3>" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "SSD_VALUE<2>" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "SSD_VALUE<1>" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "SSD_VALUE<0>" LOC = "L14"; # Bank = 1, Signal name = CA
+
+
+# Clock
+NET "CLK" LOC = "B8"; # Bank = 0, Signal name = MCLK

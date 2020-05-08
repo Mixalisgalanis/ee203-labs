@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "LAB01.ngc" LAB01.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o LAB01_map.ncd LAB01.ngd LAB01.pcf 
+par -w -intstyle ise -ol high -t 1 LAB01_map.ncd LAB01.ncd LAB01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAB01.twx LAB01.ncd -o LAB01.twr LAB01.pcf 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "LAB01.ngc" LAB01.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o LAB01_map.ncd LAB01.ngd LAB01.pcf 
+par -w -intstyle ise -ol high -t 1 LAB01_map.ncd LAB01.ncd LAB01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAB01.twx LAB01.ncd -o LAB01.twr LAB01.pcf 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "LAB01.ngc" LAB01.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o LAB01_map.ncd LAB01.ngd LAB01.pcf 
+par -w -intstyle ise -ol high -t 1 LAB01_map.ncd LAB01.ncd LAB01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAB01.twx LAB01.ncd -o LAB01.twr LAB01.pcf 
+netgen -intstyle ise -s 5  -pcf LAB01.pcf -rpw 100 -tpw 0 -ar Structure -tm LAB01 -w -dir netgen/map -ofmt vhdl -sim LAB01_map.ncd LAB01_map.vhd 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "LAB01.ngc" LAB01.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o LAB01_map.ncd LAB01.ngd LAB01.pcf 
+par -w -intstyle ise -ol high -t 1 LAB01_map.ncd LAB01.ncd LAB01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAB01.twx LAB01.ncd -o LAB01.twr LAB01.pcf 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+netgen -intstyle ise -ar Structure -tm LAB01 -w -dir netgen/synthesis -ofmt vhdl -sim LAB01.ngc LAB01_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "LAB01.ngc" LAB01.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o LAB01_map.ncd LAB01.ngd LAB01.pcf 
+par -w -intstyle ise -ol high -t 1 LAB01_map.ncd LAB01.ncd LAB01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAB01.twx LAB01.ncd -o LAB01.twr LAB01.pcf 
+vhdtdtfi -lib work LAB01.vhd -prj LAB01 -o LAB01.spl -module LAB01 -template D:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e LAB01.spl {C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.sym} 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "LAB01.ngc" LAB01.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o LAB01_map.ncd LAB01.ngd LAB01.pcf 
+par -w -intstyle ise -ol high -t 1 LAB01_map.ncd LAB01.ncd LAB01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAB01.twx LAB01.ncd -o LAB01.twr LAB01.pcf 
+bitgen -intstyle ise -f LAB01.ut LAB01.ncd 
+bitgen -intstyle ise -f LAB01.ut LAB01.ncd 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB01/LAB01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "LAB01.ngc" LAB01.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o LAB01_map.ncd LAB01.ngd LAB01.pcf 
+par -w -intstyle ise -ol high -t 1 LAB01_map.ncd LAB01.ncd LAB01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml LAB01.twx LAB01.ncd -o LAB01.twr LAB01.pcf 
+bitgen -intstyle ise -f LAB01.ut LAB01.ncd 

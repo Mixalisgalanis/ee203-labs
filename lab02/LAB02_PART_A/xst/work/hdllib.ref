@@ -1,0 +1,8 @@
+EN carry_generate_propagate_unit NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Generate_Propagate_Unit.vhd" sub00/vhpl02 1521480551
+AR carry_look_ahead_adder structural "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Adder.vhd" sub00/vhpl01 1521480558
+EN carry_look_ahead_unit NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Unit.vhd" sub00/vhpl04 1521480553
+EN sum_unit NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Sum_Unit.vhd" sub00/vhpl06 1521480555
+EN carry_look_ahead_adder NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Adder.vhd" sub00/vhpl00 1521480557
+AR carry_generate_propagate_unit behavioral "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Generate_Propagate_Unit.vhd" sub00/vhpl03 1521480552
+AR carry_look_ahead_unit behavioral "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Unit.vhd" sub00/vhpl05 1521480554
+AR sum_unit behavioral "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Sum_Unit.vhd" sub00/vhpl07 1521480556

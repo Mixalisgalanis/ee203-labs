@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Generate.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Generate.syr" 

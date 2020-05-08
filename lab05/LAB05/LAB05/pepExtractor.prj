@@ -1,0 +1,5 @@
+work	"ADDER_SUBBER.vhd"
+work	"Carry_Generate_Propagate_Unit.vhd"
+work	"Carry_Look_Ahead_Adder.vhd"
+work	"Carry_Look_Ahead_Unit.vhd"
+work	"Sum_Unit.vhd"

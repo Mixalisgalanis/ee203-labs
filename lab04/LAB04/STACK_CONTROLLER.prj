@@ -1,0 +1,8 @@
+vhdl work "ipcore_dir/Stack.vhd"
+vhdl work "StackFSM.vhd"
+vhdl work "singlepulsegen.vhd"
+vhdl work "OperationFSM.vhd"
+vhdl work "FlipFlop.vhd"
+vhdl work "Counter.vhd"
+vhdl work "Comparator_4Bit.vhd"
+vhdl work "CONTROLLER.vhd"

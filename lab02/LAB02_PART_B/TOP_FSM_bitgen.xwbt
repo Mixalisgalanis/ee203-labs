@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mgala\Documents\Xilinx Projects\LAB02_PART_B\TOP_FSM.ncd
+OUTFILE=C:\Users\mgala\Documents\Xilinx Projects\LAB02_PART_B\TOP_FSM.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\mgala\Documents\Xilinx Projects\LAB02_PART_B
+LICENSE=WebPack
+USER_INFO=211497059_0_0_476

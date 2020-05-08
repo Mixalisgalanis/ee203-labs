@@ -1,0 +1,139 @@
+NUM_IN <= "00000000";
+		RST <= '1';
+		wait for CLK_period;
+		RST <= '0';
+		wait for CLK_period * 500000;
+		
+		--BTN0 00001111
+		RST <= '0';
+		NUM_IN <= "00001111";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 11110000		
+		NUM_IN <= "11110000";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 10010111
+		NUM_IN <= "10010111";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 01100111
+		NUM_IN <= "01100111";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 11001100
+		NUM_IN <= "11001100";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 10101010
+		NUM_IN <= "10101010";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 01010101
+		NUM_IN <= "01010101";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 00110100
+		NUM_IN <= "00110100";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 10001011
+		NUM_IN <= "10001011";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 00011011
+		NUM_IN <= "00011011";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 10000000
+		NUM_IN <= "10000000";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 01001110
+		NUM_IN <= "01001110";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--BTN0 10101111
+		NUM_IN <= "10101111";
+		BTN0 <= '1';
+      wait for CLK_period;
+		
+		BTN0 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		
+		--BTN1
+		BTN1 <= '1';
+      wait for CLK_period;
+		BTN1 <= '0';
+		wait for CLK_period * 500000;
+		
+		--BTN1
+		BTN1 <= '1';
+		wait for CLK_period;
+		BTN1 <= '0';
+		wait for CLK_period * 500000;
+		
+		
+		--Resets

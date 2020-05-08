@@ -1,0 +1,3 @@
+vhdl isim_temp "singlepulsegen.vhd"
+vhdl isim_temp "FSM.vhd"
+vhdl isim_temp "TOP_FSM.vhd"

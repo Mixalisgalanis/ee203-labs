@@ -1,0 +1,10 @@
+[Inputs]
+IN0
+IN1
+BTN0
+BTN1
+BTN2
+BTN3
+[Outputs]
+=LED[5:0]=
+[BiDir]

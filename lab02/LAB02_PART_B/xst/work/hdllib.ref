@@ -1,0 +1,6 @@
+EN singlepulsegen NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/singlepulsegen.vhd" sub00/vhpl02 1521591658
+AR singlepulsegen behavioral "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/singlepulsegen.vhd" sub00/vhpl03 1521591659
+EN top_fsm NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/TOP_FSM.vhd" sub00/vhpl04 1521591662
+AR top_fsm structural "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/TOP_FSM.vhd" sub00/vhpl05 1521591663
+AR fsm behavioral "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/FSM.vhd" sub00/vhpl01 1521591661
+EN fsm NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_B/FSM.vhd" sub00/vhpl00 1521591660

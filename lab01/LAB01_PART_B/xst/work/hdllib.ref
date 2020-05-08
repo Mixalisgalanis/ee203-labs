@@ -1,0 +1,4 @@
+AR full_adder structural "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/Full_Adder.vhd" sub00/vhpl03 1520785034
+EN half_adder NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/Half_Adder.vhd" sub00/vhpl00 1520785031
+EN full_adder NULL "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/Full_Adder.vhd" sub00/vhpl02 1520785033
+AR half_adder behavioral "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/Half_Adder.vhd" sub00/vhpl01 1520785032

@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sun Mar 25 21:16:02 2018
+
+drc -z TOP_FSM.ncd TOP_FSM.pcf
+
+DRC detected 0 errors and 0 warnings.

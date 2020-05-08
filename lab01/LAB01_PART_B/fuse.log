@@ -1,0 +1,21 @@
+Running: D:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/LAB01_TB_LED7_isim_beh.exe -prj C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/LAB01_TB_LED7_beh.prj work.LAB01_TB_LED7 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/Half_Adder.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/Full_Adder.vhd" into library work
+Parsing VHDL file "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/LAB01_TB_LED7.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Half_Adder [half_adder_default]
+Compiling architecture structural of entity Full_Adder [full_adder_default]
+Compiling architecture behavior of entity lab01_tb_led7
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/LAB01_TB_LED7_isim_beh.exe
+Fuse Memory Usage: 30080 KB
+Fuse CPU Usage: 359 ms

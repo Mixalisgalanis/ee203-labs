@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.syr" 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-cp132-5 "TOP_MODULE.ngc" TOP_MODULE.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o TOP_MODULE_map.ncd TOP_MODULE.ngd TOP_MODULE.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_MODULE_map.ncd TOP_MODULE.ncd TOP_MODULE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_MODULE.twx TOP_MODULE.ncd -o TOP_MODULE.twr TOP_MODULE.pcf 
+xst -intstyle ise -ifn "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.xst" -ofn "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-cp132-5 "TOP_MODULE.ngc" TOP_MODULE.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o TOP_MODULE_map.ncd TOP_MODULE.ngd TOP_MODULE.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_MODULE_map.ncd TOP_MODULE.ncd TOP_MODULE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_MODULE.twx TOP_MODULE.ncd -o TOP_MODULE.twr TOP_MODULE.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-cp132-5 "TOP_MODULE.ngc" TOP_MODULE.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o TOP_MODULE_map.ncd TOP_MODULE.ngd TOP_MODULE.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_MODULE_map.ncd TOP_MODULE.ncd TOP_MODULE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_MODULE.twx TOP_MODULE.ncd -o TOP_MODULE.twr TOP_MODULE.pcf 
+bitgen -intstyle ise -f TOP_MODULE.ut TOP_MODULE.ncd 

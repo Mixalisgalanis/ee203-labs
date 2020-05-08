@@ -1,0 +1,386 @@
+V3 249
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Comparator_4Bit.vhd" 2018/04/22.17:45:12 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/CONTROLLER.vhd" 2018/04/22.17:45:31 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/Counter.vhd" 2018/04/22.17:38:51 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ipcore_dir/Stack.vhd" 2018/04/18.17:35:57 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/singlepulsegen.vhd" 2017/03/06.19:28:46 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssdCounter.vhd" 2018/04/22.18:23:36 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Comparator.vhd" 2018/04/21.19:49:27 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/SSD_CONTROLLER.vhd" 2018/04/22.18:23:28 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_DataPath.vhd" 2018/04/19.15:20:08 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder.vhd" 2018/04/19.15:05:46 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Decoder2To4.vhd" 2018/04/19.23:48:48 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Fsm.vhd" 2018/04/22.18:00:45 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/ssd_Mux_32to8.vhd" 2018/04/19.20:43:14 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/StackFSM.vhd" 2018/04/22.17:41:23 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TOP_MODULE.vhd" 2018/04/22.04:34:46 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/Comparator_4Bit.vhd" 2018/05/03.06:01:24 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/CONTROLLER.vhd" 2018/05/07.02:22:49 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/Counter.vhd" 2018/05/03.06:01:26 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/FlipFlop.vhd" 2018/05/03.06:01:26 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ipcore_dir/Stack.vhd" 2018/05/03.06:02:00 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/OperationFSM.vhd" 2018/05/03.06:01:32 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/singlepulsegen.vhd" 2018/05/03.06:01:32 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssdCounter.vhd" 2018/05/03.06:01:32 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Comparator.vhd" 2018/05/03.06:01:32 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/SSD_CONTROLLER.vhd" 2018/05/03.06:01:32 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_DataPath.vhd" 2018/05/03.06:01:32 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Decoder.vhd" 2018/05/03.06:01:34 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Decoder2To4.vhd" 2018/05/03.06:01:34 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Fsm.vhd" 2018/05/03.06:01:34 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Mux5To4.vhd" 2018/05/03.06:01:36 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Mux_32to8.vhd" 2018/05/03.06:01:38 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/StackFSM.vhd" 2018/05/03.06:01:38 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB04/TOP_MODULE.vhd" 2018/05/03.06:01:52 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/ADDER_SUBBER.vhd" 2018/05/16.19:00:35 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/ADD_SUB_FSM.vhd" 2018/05/15.20:00:46 O.87xd
+EN work/ADD_SUB_FSM 1526403647 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/ADD_SUB_FSM.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ADD_SUB_FSM/Behavioral 1526403648 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/ADD_SUB_FSM.vhd" \
+      EN work/ADD_SUB_FSM 1526403647
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/ADD_SUB_UN_FSM.vhd" 2018/05/16.21:46:55 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Comparator_4Bit.vhd" 2018/05/03.06:01:24 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/CONTROLLER.vhd" 2018/05/17.00:23:34 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Counter.vhd" 2018/05/03.06:01:26 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Demux_Post_Stack.vhd" 2018/05/16.22:37:14 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Demux_Swapper.vhd" 2018/05/16.22:25:34 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/FlipFlop.vhd" 2018/05/03.06:01:26 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/ipcore_dir/Stack.vhd" 2018/05/03.06:02:00 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADDER_SUBBER.vhd" 2018/05/17.18:34:17 O.87xd
+EN work/ADDER_SUBBER 1526832921 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADDER_SUBBER.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_SIGNED 1325952874
+AR work/ADDER_SUBBER/Structural 1526832922 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADDER_SUBBER.vhd" \
+      EN work/ADDER_SUBBER 1526832921 CP Carry_Look_Ahead_Adder
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADD_SUB_UN_FSM.vhd" 2018/05/20.19:14:50 O.87xd
+EN work/ADD_SUB_UN_FSM 1526832949 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADD_SUB_UN_FSM.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ADD_SUB_UN_FSM/Behavioral 1526832950 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ADD_SUB_UN_FSM.vhd" \
+      EN work/ADD_SUB_UN_FSM 1526832949
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Generate_Propagate_Unit.vhd" 2018/05/17.17:53:21 O.87xd
+EN work/Carry_Generate_Propagate_Unit 1526832897 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Generate_Propagate_Unit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Carry_Generate_Propagate_Unit/Behavioral 1526832898 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Generate_Propagate_Unit.vhd" \
+      EN work/Carry_Generate_Propagate_Unit 1526832897
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Adder.vhd" 2018/05/17.20:05:45 O.87xd
+EN work/Carry_Look_Ahead_Adder 1526832905 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Adder.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Carry_Look_Ahead_Adder/Structural 1526832906 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Adder.vhd" \
+      EN work/Carry_Look_Ahead_Adder 1526832905 CP Carry_Generate_Propagate_Unit \
+      CP Carry_Look_Ahead_Unit CP Sum_Unit
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Unit.vhd" 2018/03/19.19:28:26 O.87xd
+EN work/Carry_Look_Ahead_Unit 1526832899 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Unit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Carry_Look_Ahead_Unit/Behavioral 1526832900 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Carry_Look_Ahead_Unit.vhd" \
+      EN work/Carry_Look_Ahead_Unit 1526832899
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Comparator_4Bit.vhd" 2018/05/16.14:55:58 O.87xd
+EN work/Comparator_4Bit 1526832939 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Comparator_4Bit.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/Comparator_4Bit/Behavioral 1526832940 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Comparator_4Bit.vhd" \
+      EN work/Comparator_4Bit 1526832939
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/CONTROLLER.vhd" 2018/05/20.19:14:18 O.87xd
+EN work/STACK_CONTROLLER 1526832957 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/CONTROLLER.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/STACK_CONTROLLER/Structural 1526832958 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/CONTROLLER.vhd" \
+      EN work/STACK_CONTROLLER 1526832957 CP singlepulsegen CP Counter \
+      CP Comparator_4Bit CP Double_FlipFlop CP Stack CP Mux_True_Btn_Pulse \
+      CP StackFSM CP OperationFSM CP ADD_SUB_UN_FSM CP SWAP_FSM CP Stack_DataPath \
+      CP Mux_FinalTosSelector
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Counter.vhd" 2018/05/16.14:56:00 O.87xd
+EN work/Counter 1526832937 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Counter.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/Counter/Behavioral 1526832938 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Counter.vhd" \
+      EN work/Counter 1526832937
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Demux_Post_Stack.vhd" 2018/05/17.16:06:04 O.87xd
+EN work/Demux_Post_Stack 1526656974 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Demux_Post_Stack.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Demux_Post_Stack/Behavioral 1526656975 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Demux_Post_Stack.vhd" \
+      EN work/Demux_Post_Stack 1526656974
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Demux_Swapper.vhd" 2018/05/17.16:07:27 O.87xd
+EN work/Demux_Swapper 1526656980 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Demux_Swapper.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Demux_Swapper/Behavioral 1526656981 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Demux_Swapper.vhd" \
+      EN work/Demux_Swapper 1526656980
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Double_FlipFlop.vhd" 2018/05/18.23:28:09 O.87xd
+EN work/Double_FlipFlop 1526832923 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Double_FlipFlop.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Double_FlipFlop/Structural 1526832924 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Double_FlipFlop.vhd" \
+      EN work/Double_FlipFlop 1526832923 CP FlipFlop
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/FlipFlop.vhd" 2018/05/16.14:56:00 O.87xd
+EN work/FlipFlop 1526832903 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/FlipFlop.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/FlipFlop/Behavioral 1526832904 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/FlipFlop.vhd" \
+      EN work/FlipFlop 1526832903
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ipcore_dir/Stack.vhd" 2018/05/16.14:56:34 O.87xd
+EN work/Stack 1526832941 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ipcore_dir/Stack.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Stack/Stack_a 1526832942 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ipcore_dir/Stack.vhd" \
+      EN work/Stack 1526832941
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_2To1.vhd" 2018/05/16.14:56:02 O.87xd
+EN work/Mux_A_ADDER 1526656982 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_2To1.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_A_ADDER/Behavioral 1526656983 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_2To1.vhd" \
+      EN work/Mux_A_ADDER 1526656982
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_B_ADDER.vhd" 2018/05/16.14:56:02 O.87xd
+EN work/Mux_B_ADDER 1526656984 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_B_ADDER.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_B_ADDER/Behavioral 1526656985 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_B_ADDER.vhd" \
+      EN work/Mux_B_ADDER 1526656984
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_FinalTosSelector.vhd" 2018/05/19.00:33:16 O.87xd
+EN work/Mux_FinalTosSelector 1526832955 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_FinalTosSelector.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_FinalTosSelector/Behavioral 1526832956 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_FinalTosSelector.vhd" \
+      EN work/Mux_FinalTosSelector 1526832955
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Pre_Stack.vhd" 2018/05/16.14:56:06 O.87xd
+EN work/Mux_Pre_Stack 1526832913 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Pre_Stack.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_Pre_Stack/Behavioral 1526832914 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Pre_Stack.vhd" \
+      EN work/Mux_Pre_Stack 1526832913
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Swapper.vhd" 2018/05/16.14:56:04 O.87xd
+EN work/Mux_Swapper 1526832917 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Swapper.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_Swapper/Behavioral 1526832918 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_Swapper.vhd" \
+      EN work/Mux_Swapper 1526832917
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_True_Btn_Pulse.vhd" 2018/05/17.20:51:31 O.87xd
+EN work/Mux_True_Btn_Pulse 1526832943 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_True_Btn_Pulse.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_True_Btn_Pulse/Behavioral 1526832944 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Mux_True_Btn_Pulse.vhd" \
+      EN work/Mux_True_Btn_Pulse 1526832943
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/OperationFSM.vhd" 2018/05/18.18:42:36 O.87xd
+EN work/OperationFSM 1526832947 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/OperationFSM.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/OperationFSM/Behavioral 1526832948 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/OperationFSM.vhd" \
+      EN work/OperationFSM 1526832947
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Register.vhd" 2018/05/17.15:54:28 O.87xd
+EN work/Stack_Register 1526832919 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Register.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Stack_Register/Behavioral 1526832920 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Register.vhd" \
+      EN work/Stack_Register 1526832919
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/RegisterController.vhd" 2018/05/18.23:06:28 O.87xd
+EN work/RegisterController 1526832915 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/RegisterController.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/RegisterController/Behavioral 1526832916 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/RegisterController.vhd" \
+      EN work/RegisterController 1526832915
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/singlepulsegen.vhd" 2018/05/16.14:56:06 O.87xd
+EN work/singlepulsegen 1526832935 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/singlepulsegen.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/singlepulsegen/behavioral 1526832936 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/singlepulsegen.vhd" \
+      EN work/singlepulsegen 1526832935
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssdCounter.vhd" 2018/05/16.14:56:08 O.87xd
+EN work/ssd_Counter 1526832927 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssdCounter.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/ssd_Counter/Behavioral 1526832928 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssdCounter.vhd" \
+      EN work/ssd_Counter 1526832927
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Comparator.vhd" 2018/05/16.14:56:08 O.87xd
+EN work/ssd_Comparator 1526832925 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Comparator.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/ssd_Comparator/Behavioral 1526832926 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Comparator.vhd" \
+      EN work/ssd_Comparator 1526832925
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SSD_CONTROLLER.vhd" 2018/05/17.15:24:02 O.87xd
+EN work/SSD_CONTROLLER 1526832959 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SSD_CONTROLLER.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/SSD_CONTROLLER/Structural 1526832960 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SSD_CONTROLLER.vhd" \
+      EN work/SSD_CONTROLLER 1526832959 CP ssd_Comparator CP ssd_Counter CP ssd_Fsm \
+      CP ssd_DataPath CP ssd_Decoder2To4
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_DataPath.vhd" 2018/05/17.15:28:07 O.87xd
+EN work/ssd_DataPath 1526832931 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_DataPath.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_DataPath/Structural 1526832932 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_DataPath.vhd" \
+      EN work/ssd_DataPath 1526832931 CP ssd_Decoder CP ssd_Mux32To8 CP ssd_Mux5To4
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder.vhd" 2018/05/17.15:22:57 O.87xd
+EN work/ssd_Decoder 1526832907 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Decoder/Behavioral 1526832908 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder.vhd" \
+      EN work/ssd_Decoder 1526832907
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder2To4.vhd" 2018/05/17.15:30:57 O.87xd
+EN work/ssd_Decoder2To4 1526832933 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder2To4.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Decoder2To4/Behavioral 1526832934 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Decoder2To4.vhd" \
+      EN work/ssd_Decoder2To4 1526832933
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Fsm.vhd" 2018/05/16.14:56:08 O.87xd
+EN work/ssd_Fsm 1526832929 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Fsm.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Fsm/Behavioral 1526832930 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Fsm.vhd" \
+      EN work/ssd_Fsm 1526832929
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux5To4.vhd" 2018/05/17.15:18:56 O.87xd
+EN work/ssd_Mux5To4 1526832911 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux5To4.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Mux5To4/Behavioral 1526832912 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux5To4.vhd" \
+      EN work/ssd_Mux5To4 1526832911
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux_32to8.vhd" 2018/05/16.14:56:12 O.87xd
+EN work/ssd_Mux32To8 1526832909 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux_32to8.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ssd_Mux32To8/Behavioral 1526832910 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/ssd_Mux_32to8.vhd" \
+      EN work/ssd_Mux32To8 1526832909
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/StackFSM.vhd" 2018/05/17.20:56:42 O.87xd
+EN work/StackFSM 1526832945 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/StackFSM.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/StackFSM/Behavioral 1526832946 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/StackFSM.vhd" \
+      EN work/StackFSM 1526832945
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Stack_DataPath.vhd" 2018/05/20.18:54:17 O.87xd
+EN work/Stack_DataPath 1526832953 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Stack_DataPath.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Stack_DataPath/Structural 1526832954 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Stack_DataPath.vhd" \
+      EN work/Stack_DataPath 1526832953 CP Mux_Pre_Stack CP RegisterController \
+      CP Mux_Swapper CP Stack_Register CP ADDER_SUBBER CP Double_FlipFlop
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Sum_Unit.vhd" 2018/03/19.19:46:49 O.87xd
+EN work/Sum_Unit 1526832901 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Sum_Unit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Sum_Unit/Behavioral 1526832902 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/Sum_Unit.vhd" \
+      EN work/Sum_Unit 1526832901
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SWAP_FSM.vhd" 2018/05/20.19:09:13 O.87xd
+EN work/SWAP_FSM 1526832951 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SWAP_FSM.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/SWAP_FSM/Behavioral 1526832952 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/SWAP_FSM.vhd" \
+      EN work/SWAP_FSM 1526832951
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TOP_MODULE.vhd" 2018/05/17.15:25:18 O.87xd
+EN work/TOP_MODULE 1526832961 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TOP_MODULE.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/TOP_MODULE/Structural 1526832962 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/LAB05/TOP_MODULE.vhd" \
+      EN work/TOP_MODULE 1526832961 CP STACK_CONTROLLER CP SSD_CONTROLLER
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Mux_2To1.vhd" 2018/05/16.22:17:17 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Mux_B_ADDER.vhd" 2018/05/16.22:19:53 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Mux_Pop_Stack_FSM.vhd" 2018/05/16.23:04:30 O.87xd
+EN work/Mux_Pop_Stack_FSM 0 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Mux_Pop_Stack_FSM.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_Pop_Stack_FSM/Behavioral 0 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Mux_Pop_Stack_FSM.vhd" \
+      EN work/Mux_Pop_Stack_FSM 0
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Mux_Pre_Stack.vhd" 2018/05/16.22:42:18 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Mux_Swapper.vhd" 2018/05/16.22:27:36 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/OperationFSM.vhd" 2018/05/15.19:56:56 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Register.vhd" 2018/05/16.23:53:41 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/singlepulsegen.vhd" 2018/05/03.06:01:32 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/StackFSM.vhd" 2018/05/03.06:01:38 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/Stack_DataPath.vhd" 2018/05/16.23:56:22 O.87xd
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB05/SWAP_FSM.vhd" 2018/05/16.22:16:26 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/Comparator_4Bit.vhd 2018/05/03.01:26:52 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/CONTROLLER.vhd 2018/05/03.01:26:52 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/Counter.vhd 2018/05/03.01:26:52 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/FlipFlop.vhd 2018/05/03.01:26:56 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ipcore_dir/Stack.vhd 2018/05/03.01:27:26 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/OperationFSM.vhd 2018/05/03.15:57:30 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/singlepulsegen.vhd 2018/05/03.01:27:00 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssdCounter.vhd 2018/05/03.01:27:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssd_Comparator.vhd 2018/05/03.01:27:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/SSD_CONTROLLER.vhd 2018/05/03.01:27:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssd_DataPath.vhd 2018/05/03.01:27:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssd_Decoder.vhd 2018/05/03.01:27:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssd_Decoder2To4.vhd 2018/05/03.01:27:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssd_Fsm.vhd 2018/05/03.01:27:04 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssd_Mux5To4.vhd 2018/05/03.01:27:04 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/ssd_Mux_32to8.vhd 2018/05/03.01:27:04 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/StackFSM.vhd 2018/05/03.01:27:06 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB04/TOP_MODULE.vhd 2018/05/03.01:27:18 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ADDER_SUBBER.vhd 2018/05/17.16:14:56 O.87xd
+AR work/ADDER_SUBBER/Behavioral -1 \
+      FL C:/Users/MHL-14/Desktop/LAB05/ADDER_SUBBER.vhd EN work/ADDER_SUBBER 1526832921
+FL C:/Users/MHL-14/Desktop/LAB05/ADD_SUB_UN_FSM.vhd 2018/05/17.15:34:38 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Comparator_4Bit.vhd 2018/05/16.14:55:58 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/CONTROLLER.vhd 2018/05/17.16:17:03 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Counter.vhd 2018/05/16.14:56:00 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Demux_Post_Stack.vhd 2018/05/17.16:06:04 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Demux_Swapper.vhd 2018/05/17.16:07:27 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/FlipFlop.vhd 2018/05/16.14:56:00 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ipcore_dir/Stack.vhd 2018/05/16.14:56:34 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Mux_2To1.vhd 2018/05/16.14:56:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Mux_B_ADDER.vhd 2018/05/16.14:56:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Mux_Pre_Stack.vhd 2018/05/16.14:56:06 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Mux_Swapper.vhd 2018/05/16.14:56:04 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/OperationFSM.vhd 2018/05/16.14:56:06 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Register.vhd 2018/05/17.15:54:28 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/singlepulsegen.vhd 2018/05/16.14:56:06 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssdCounter.vhd 2018/05/16.14:56:08 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssd_Comparator.vhd 2018/05/16.14:56:08 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/SSD_CONTROLLER.vhd 2018/05/17.15:24:02 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssd_DataPath.vhd 2018/05/17.15:28:07 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssd_Decoder.vhd 2018/05/17.15:22:57 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssd_Decoder2To4.vhd 2018/05/17.15:30:57 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssd_Fsm.vhd 2018/05/16.14:56:08 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssd_Mux5To4.vhd 2018/05/17.15:18:56 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/ssd_Mux_32to8.vhd 2018/05/16.14:56:12 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/StackFSM.vhd 2018/05/16.14:56:12 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/Stack_DataPath.vhd 2018/05/17.16:12:03 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/SWAP_FSM.vhd 2018/05/17.15:38:32 O.87xd
+FL C:/Users/MHL-14/Desktop/LAB05/TOP_MODULE.vhd 2018/05/17.15:25:18 O.87xd

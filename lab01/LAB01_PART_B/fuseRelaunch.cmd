@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/LAB01_TB_LED7_isim_beh.exe" -prj "C:/Users/mgala/Documents/Xilinx Projects/LAB01_PART_B/LAB01_TB_LED7_beh.prj" "work.LAB01_TB_LED7" 

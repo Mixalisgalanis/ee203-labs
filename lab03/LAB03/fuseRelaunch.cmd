@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TB_TOP_MODULE_isim_beh.exe" -prj "C:/Users/mgala/Documents/Xilinx Projects/LAB03/TB_TOP_MODULE_beh.prj" "work.TB_TOP_MODULE" 

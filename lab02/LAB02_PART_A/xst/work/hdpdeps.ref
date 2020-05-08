@@ -1,0 +1,30 @@
+V3 15
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Generate_Propagate_Unit.vhd" 2018/03/19.19:26:10 O.87xd
+EN work/Carry_Generate_Propagate_Unit 1521480551 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Generate_Propagate_Unit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Carry_Generate_Propagate_Unit/Behavioral 1521480552 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Generate_Propagate_Unit.vhd" \
+      EN work/Carry_Generate_Propagate_Unit 1521480551
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Adder.vhd" 2018/03/19.19:29:08 O.87xd
+EN work/Carry_Look_Ahead_Adder 1521480557 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Adder.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Carry_Look_Ahead_Adder/Structural 1521480558 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Adder.vhd" \
+      EN work/Carry_Look_Ahead_Adder 1521480557 CP Carry_Generate_Propagate_Unit \
+      CP Carry_Look_Ahead_Unit CP Sum_Unit
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Unit.vhd" 2018/03/19.18:28:26 O.87xd
+EN work/Carry_Look_Ahead_Unit 1521480553 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Unit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Carry_Look_Ahead_Unit/Behavioral 1521480554 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Carry_Look_Ahead_Unit.vhd" \
+      EN work/Carry_Look_Ahead_Unit 1521480553
+FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Sum_Unit.vhd" 2018/03/19.18:46:49 O.87xd
+EN work/Sum_Unit 1521480555 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Sum_Unit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Sum_Unit/Behavioral 1521480556 \
+      FL "C:/Users/mgala/Documents/Xilinx Projects/LAB02_PART_A/Sum_Unit.vhd" \
+      EN work/Sum_Unit 1521480555

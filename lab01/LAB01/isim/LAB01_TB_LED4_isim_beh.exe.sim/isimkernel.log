@@ -1,0 +1,29 @@
+Command line:
+   LAB01_TB_LED4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55352
+
+Sun Mar 11 22:37:06 2018
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 1026.98 Meg
+
+ Total Signals          : 14
+ Total Nets             : 12
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 7
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 372
+Total Line Count : 10
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 1341.55 Meg
+
+Sun Mar 11 22:37:43 2018
+

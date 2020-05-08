@@ -1,0 +1,750 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: TOP_MODULE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TOP_MODULE.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TOP_MODULE"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : TOP_MODULE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Decoder.vhd" in Library work.
+Architecture behavioral of Entity ssd_decoder is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Mux_32to8.vhd" in Library work.
+Architecture behavioral of Entity ssd_mux32to8 is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Mux5To4.vhd" in Library work.
+Architecture behavioral of Entity ssd_mux5to4 is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Comparator.vhd" in Library work.
+Architecture behavioral of Entity ssd_comparator is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssdCounter.vhd" in Library work.
+Architecture behavioral of Entity ssd_counter is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Fsm.vhd" in Library work.
+Architecture behavioral of Entity ssd_fsm is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_DataPath.vhd" in Library work.
+Architecture structural of Entity ssd_datapath is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Decoder2To4.vhd" in Library work.
+Architecture behavioral of Entity ssd_decoder2to4 is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/singlepulsegen.vhd" in Library work.
+Architecture behavioral of Entity singlepulsegen is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/Counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/Comparator_4Bit.vhd" in Library work.
+Architecture behavioral of Entity comparator_4bit is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/FlipFlop.vhd" in Library work.
+Architecture behavioral of Entity flipflop is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ipcore_dir/Stack.vhd" in Library work.
+Architecture stack_a of Entity stack is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/StackFSM.vhd" in Library work.
+Architecture behavioral of Entity stackfsm is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/OperationFSM.vhd" in Library work.
+Architecture behavioral of Entity operationfsm is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/CONTROLLER.vhd" in Library work.
+Entity <stack_controller> compiled.
+Entity <stack_controller> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/SSD_CONTROLLER.vhd" in Library work.
+Architecture structural of Entity ssd_controller is up to date.
+Compiling vhdl file "C:/Users/mgala/Documents/Xilinx Projects/LAB04/TOP_MODULE.vhd" in Library work.
+Architecture structural of Entity top_module is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TOP_MODULE> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <STACK_CONTROLLER> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <SSD_CONTROLLER> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <singlepulsegen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Comparator_4Bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FlipFlop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <StackFSM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OperationFSM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_Comparator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_Counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_Fsm> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_DataPath> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <ssd_Decoder2To4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_Decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_Mux32To8> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ssd_Mux5To4> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TOP_MODULE> in library <work> (Architecture <structural>).
+Entity <TOP_MODULE> analyzed. Unit <TOP_MODULE> generated.
+
+Analyzing Entity <STACK_CONTROLLER> in library <work> (Architecture <structural>).
+WARNING:Xst:2211 - "C:/Users/mgala/Documents/Xilinx Projects/LAB04/CONTROLLER.vhd" line 159: Instantiating black box module <Stack>.
+Entity <STACK_CONTROLLER> analyzed. Unit <STACK_CONTROLLER> generated.
+
+Analyzing Entity <singlepulsegen> in library <work> (Architecture <behavioral>).
+Entity <singlepulsegen> analyzed. Unit <singlepulsegen> generated.
+
+Analyzing Entity <Counter> in library <work> (Architecture <behavioral>).
+Entity <Counter> analyzed. Unit <Counter> generated.
+
+Analyzing Entity <Comparator_4Bit> in library <work> (Architecture <behavioral>).
+Entity <Comparator_4Bit> analyzed. Unit <Comparator_4Bit> generated.
+
+Analyzing Entity <FlipFlop> in library <work> (Architecture <behavioral>).
+Entity <FlipFlop> analyzed. Unit <FlipFlop> generated.
+
+Analyzing Entity <StackFSM> in library <work> (Architecture <behavioral>).
+Entity <StackFSM> analyzed. Unit <StackFSM> generated.
+
+Analyzing Entity <OperationFSM> in library <work> (Architecture <behavioral>).
+Entity <OperationFSM> analyzed. Unit <OperationFSM> generated.
+
+Analyzing Entity <SSD_CONTROLLER> in library <work> (Architecture <structural>).
+Entity <SSD_CONTROLLER> analyzed. Unit <SSD_CONTROLLER> generated.
+
+Analyzing Entity <ssd_Comparator> in library <work> (Architecture <behavioral>).
+Entity <ssd_Comparator> analyzed. Unit <ssd_Comparator> generated.
+
+Analyzing Entity <ssd_Counter> in library <work> (Architecture <behavioral>).
+Entity <ssd_Counter> analyzed. Unit <ssd_Counter> generated.
+
+Analyzing Entity <ssd_Fsm> in library <work> (Architecture <behavioral>).
+Entity <ssd_Fsm> analyzed. Unit <ssd_Fsm> generated.
+
+Analyzing Entity <ssd_DataPath> in library <work> (Architecture <structural>).
+Entity <ssd_DataPath> analyzed. Unit <ssd_DataPath> generated.
+
+Analyzing Entity <ssd_Decoder> in library <work> (Architecture <behavioral>).
+Entity <ssd_Decoder> analyzed. Unit <ssd_Decoder> generated.
+
+Analyzing Entity <ssd_Mux32To8> in library <work> (Architecture <behavioral>).
+Entity <ssd_Mux32To8> analyzed. Unit <ssd_Mux32To8> generated.
+
+Analyzing Entity <ssd_Mux5To4> in library <work> (Architecture <behavioral>).
+Entity <ssd_Mux5To4> analyzed. Unit <ssd_Mux5To4> generated.
+
+Analyzing Entity <ssd_Decoder2To4> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Decoder2To4.vhd" line 24: Mux is complete : default of case is discarded
+Entity <ssd_Decoder2To4> analyzed. Unit <ssd_Decoder2To4> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <singlepulsegen>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/singlepulsegen.vhd".
+    Found finite state machine <FSM_0> for signal <currentS>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <singlepulsegen> synthesized.
+
+
+Synthesizing Unit <Counter>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/Counter.vhd".
+    Found 4-bit updown counter for signal <temp>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Counter> synthesized.
+
+
+Synthesizing Unit <Comparator_4Bit>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/Comparator_4Bit.vhd".
+    Found 4-bit comparator equal for signal <EQ$cmp_eq0000> created at line 19.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <Comparator_4Bit> synthesized.
+
+
+Synthesizing Unit <FlipFlop>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/FlipFlop.vhd".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FlipFlop> synthesized.
+
+
+Synthesizing Unit <StackFSM>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/StackFSM.vhd".
+    Found finite state machine <FSM_1> for signal <fsm_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 6                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | e                                              |
+    | Power Up State     | b                                              |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <StackFSM> synthesized.
+
+
+Synthesizing Unit <OperationFSM>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/OperationFSM.vhd".
+    Found finite state machine <FSM_2> for signal <fsm_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | m0                                             |
+    | Power Up State     | m0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <OperationFSM> synthesized.
+
+
+Synthesizing Unit <ssd_Comparator>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Comparator.vhd".
+Unit <ssd_Comparator> synthesized.
+
+
+Synthesizing Unit <ssd_Counter>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssdCounter.vhd".
+    Found 17-bit up counter for signal <temp>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <ssd_Counter> synthesized.
+
+
+Synthesizing Unit <ssd_Fsm>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Fsm.vhd".
+    Found finite state machine <FSM_3> for signal <fsm_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | a                                              |
+    | Power Up State     | a                                              |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ssd_Fsm> synthesized.
+
+
+Synthesizing Unit <ssd_Decoder2To4>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Decoder2To4.vhd".
+    Found 1-of-4 decoder for signal <AN>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <ssd_Decoder2To4> synthesized.
+
+
+Synthesizing Unit <ssd_Decoder>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Decoder.vhd".
+    Found 16x32-bit ROM for signal <DATA_OUT>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <ssd_Decoder> synthesized.
+
+
+Synthesizing Unit <ssd_Mux32To8>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Mux_32to8.vhd".
+    Found 8-bit 4-to-1 multiplexer for signal <SEG>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <ssd_Mux32To8> synthesized.
+
+
+Synthesizing Unit <ssd_Mux5To4>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_Mux5To4.vhd".
+Unit <ssd_Mux5To4> synthesized.
+
+
+Synthesizing Unit <STACK_CONTROLLER>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/CONTROLLER.vhd".
+Unit <STACK_CONTROLLER> synthesized.
+
+
+Synthesizing Unit <ssd_DataPath>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/ssd_DataPath.vhd".
+Unit <ssd_DataPath> synthesized.
+
+
+Synthesizing Unit <SSD_CONTROLLER>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/SSD_CONTROLLER.vhd".
+Unit <SSD_CONTROLLER> synthesized.
+
+
+Synthesizing Unit <TOP_MODULE>.
+    Related source file is "C:/Users/mgala/Documents/Xilinx Projects/LAB04/TOP_MODULE.vhd".
+Unit <TOP_MODULE> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x32-bit ROM                                         : 1
+# Counters                                             : 2
+ 17-bit up counter                                     : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Comparators                                          : 2
+ 4-bit comparator equal                                : 2
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <SSD/Fsm/fsm_state/FSM> on signal <fsm_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ a     | 00
+ b     | 01
+ c     | 10
+ d     | 11
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <STACK/OPERATION_FSM/fsm_state/FSM> on signal <fsm_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ m0    | 00
+ m1    | 01
+ m2    | 10
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <STACK/FSM/fsm_state/FSM> on signal <fsm_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ b     | 00
+ e     | 01
+ f     | 10
+ ovf   | 11
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <STACK/SPGEN_BTN0/currentS/FSM> on signal <currentS[1:3]> with one-hot encoding.
+Optimizing FSM <STACK/SPGEN_BTN1/currentS/FSM> on signal <currentS[1:3]> with one-hot encoding.
+Optimizing FSM <STACK/SPGEN_MODE/currentS/FSM> on signal <currentS[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 001
+ s1    | 010
+ s2    | 100
+-------------------
+Reading core <ipcore_dir/Stack.ngc>.
+Loading core <Stack> for timing and area information for instance <Stack_1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# ROMs                                                 : 1
+ 16x32-bit ROM                                         : 1
+# Counters                                             : 2
+ 17-bit up counter                                     : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Comparators                                          : 2
+ 4-bit comparator equal                                : 2
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TOP_MODULE> ...
+
+Optimizing unit <STACK_CONTROLLER> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TOP_MODULE, actual ratio is 6.
+
+Final Macro Processing ...
+
+Processing Unit <TOP_MODULE> :
+	Found 2-bit shift register for signal <STACK/FlipFlopStack_2/Q>.
+Unit <TOP_MODULE> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TOP_MODULE.ngr
+Top Level Output File Name         : TOP_MODULE
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 33
+
+Cell Usage :
+# BELS                             : 145
+#      GND                         : 2
+#      INV                         : 3
+#      LUT1                        : 16
+#      LUT2                        : 33
+#      LUT2_L                      : 1
+#      LUT3                        : 11
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 28
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 21
+#      MUXF5                       : 7
+#      VCC                         : 2
+#      XORCY                       : 17
+# FlipFlops/Latches                : 34
+#      FD                          : 1
+#      FDC                         : 20
+#      FDCE                        : 4
+#      FDP                         : 3
+#      FDR                         : 4
+#      FDRE                        : 1
+#      FDS                         : 1
+# RAMS                             : 1
+#      RAMB16_S36_S36              : 1
+# Shift Registers                  : 1
+#      SRL16                       : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 32
+#      IBUF                        : 12
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       53  out of    960     5%  
+ Number of Slice Flip Flops:             34  out of   1920     1%  
+ Number of 4 input LUTs:                 97  out of   1920     5%  
+    Number used as logic:                96
+    Number used as Shift registers:       1
+ Number of IOs:                          33
+ Number of bonded IOBs:                  33  out of     83    39%  
+ Number of BRAMs:                         1  out of      4    25%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 36    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RST                                | IBUF                   | 27    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.788ns (Maximum Frequency: 208.858MHz)
+   Minimum input arrival time before clock: 2.974ns
+   Maximum output required time after clock: 8.485ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.788ns (frequency: 208.858MHz)
+  Total number of paths / destination ports: 582 / 50
+-------------------------------------------------------------------------
+Delay:               4.788ns (Levels of Logic = 18)
+  Source:            SSD/Counter125K/temp_1 (FF)
+  Destination:       SSD/Counter125K/temp_16 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: SSD/Counter125K/temp_1 to SSD/Counter125K/temp_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  SSD/Counter125K/temp_1 (SSD/Counter125K/temp_1)
+     LUT1:I0->O            1   0.612   0.000  SSD/Counter125K/Mcount_temp_cy<1>_rt (SSD/Counter125K/Mcount_temp_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  SSD/Counter125K/Mcount_temp_cy<1> (SSD/Counter125K/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<2> (SSD/Counter125K/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<3> (SSD/Counter125K/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<4> (SSD/Counter125K/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<5> (SSD/Counter125K/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<6> (SSD/Counter125K/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<7> (SSD/Counter125K/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<8> (SSD/Counter125K/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<9> (SSD/Counter125K/Mcount_temp_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<10> (SSD/Counter125K/Mcount_temp_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<11> (SSD/Counter125K/Mcount_temp_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<12> (SSD/Counter125K/Mcount_temp_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<13> (SSD/Counter125K/Mcount_temp_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<14> (SSD/Counter125K/Mcount_temp_cy<14>)
+     MUXCY:CI->O           0   0.052   0.000  SSD/Counter125K/Mcount_temp_cy<15> (SSD/Counter125K/Mcount_temp_cy<15>)
+     XORCY:CI->O           1   0.699   0.426  SSD/Counter125K/Mcount_temp_xor<16> (Result<16>)
+     LUT2:I1->O            1   0.612   0.000  SSD/Counter125K/Mcount_temp_eqn_161 (SSD/Counter125K/Mcount_temp_eqn_16)
+     FDC:D                     0.268          SSD/Counter125K/temp_16
+    ----------------------------------------
+    Total                      4.788ns (3.830ns logic, 0.958ns route)
+                                       (80.0% logic, 20.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              2.974ns (Levels of Logic = 1)
+  Source:            RST (PAD)
+  Destination:       SSD/Fsm/fsm_state_FSM_FFd1 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RST to SSD/Fsm/fsm_state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   1.106   1.073  RST_IBUF (RST_IBUF)
+     FDR:R                     0.795          SSD/Fsm/fsm_state_FSM_FFd1
+    ----------------------------------------
+    Total                      2.974ns (1.901ns logic, 1.073ns route)
+                                       (63.9% logic, 36.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 190 / 19
+-------------------------------------------------------------------------
+Offset:              8.485ns (Levels of Logic = 5)
+  Source:            STACK/OPERATION_FSM/fsm_state_FSM_FFd2 (FF)
+  Destination:       SSD_VALUE<0> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: STACK/OPERATION_FSM/fsm_state_FSM_FFd2 to SSD_VALUE<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             17   0.514   1.045  STACK/OPERATION_FSM/fsm_state_FSM_FFd2 (STACK/OPERATION_FSM/fsm_state_FSM_FFd2)
+     LUT4:I0->O            7   0.612   0.754  STACK/OPERATION_FSM/SEL<1>1 (signal_SEL<1>)
+     LUT2:I0->O            1   0.612   0.000  SSD/DataPath/FinalSegmentSelector/Mmux_SEG221 (SSD/DataPath/FinalSegmentSelector/Mmux_SEG22)
+     MUXF5:I1->O           2   0.278   0.532  SSD/DataPath/FinalSegmentSelector/Mmux_SEG22_f5 (N3)
+     LUT4:I0->O            1   0.612   0.357  SSD/DataPath/FinalSegmentSelector/Mmux_SEG241 (SSD_VALUE_0_OBUF)
+     OBUF:I->O                 3.169          SSD_VALUE_0_OBUF (SSD_VALUE<0>)
+    ----------------------------------------
+    Total                      8.485ns (5.797ns logic, 2.688ns route)
+                                       (68.3% logic, 31.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.06 secs
+ 
+--> 
+
+Total memory usage is 368336 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
